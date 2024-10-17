@@ -14,7 +14,7 @@
     "@types/cookie": "0.6.0",
     "bcrypt": "5.1.1",
     "canvas": "2.11.2",
-    "cookie": "1.0.0",
+    "cookie": "1.0.1",
     "dompurify": "3.1.7",
     "dotenv-safe": "9.1.0",
     "jsdom": "25.0.1",
@@ -24,7 +24,7 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-markdown": "9.0.1",
-    "sass": "1.79.4",
+    "sass": "1.80.1",
     "sharp": "0.33.5",
     "tsm": "2.3.0",
     "zod": "3.23.8"
@@ -35,17 +35,17 @@
     "@types/dompurify": "3.0.5",
     "@types/dotenv-safe": "8.1.6",
     "@types/jsdom": "21.1.7",
-    "@types/node": "22.7.5",
+    "@types/node": "22.7.6",
     "@types/react": "18.3.11",
-    "@types/react-dom": "18.3.0",
+    "@types/react-dom": "18.3.1",
     "eslint": "9.12.0",
-    "eslint-config-upleveled": "8.7.3",
-    "libpg-query": "16.2.0",
+    "eslint-config-upleveled": "8.8.0",
+    "libpg-query": "16.3.0",
     "prettier-plugin-embed": "0.4.15",
     "prettier-plugin-sql": "0.18.1",
-    "stylelint": "16.9.0",
+    "stylelint": "16.10.0",
     "stylelint-config-upleveled": "1.1.5",
     "typescript": "5.6.3"
   },
-  "packageManager": "pnpm@9.12.1"
+  "packageManager": "pnpm@9.12.2"
 }
