@@ -34,7 +34,7 @@ importers:
         version: 0.8.1
       next:
         specifier: 14.2.15
-        version: 14.2.15(@babel/core@7.24.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.1)
+        version: 14.2.15(@babel/core@7.24.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.2)
       postgres:
         specifier: 3.4.4
         version: 3.4.4
@@ -48,8 +48,8 @@ importers:
         specifier: 9.0.1
         version: 9.0.1(@types/react@18.3.11)(react@18.3.1)
       sass:
-        specifier: 1.80.1
-        version: 1.80.1
+        specifier: 1.80.2
+        version: 1.80.2
       sharp:
         specifier: 0.33.5
         version: 0.33.5
@@ -3056,8 +3056,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sass@1.80.1:
-    resolution: {integrity: sha512-9lBwDZ7j3y/1DKj5Ec249EVGo5CVpwnzIyIj+cqlCjKkApLnzsJ/l9SnV4YnORvW9dQwQN+gQvh/mFZ8CnDs7Q==}
+  sass@1.80.2:
+    resolution: {integrity: sha512-9wXY8cGBlUmoUoT+vwOZOFCiS+naiWVjqlreN9ar9PudXbGwlMTFwCR5K9kB4dFumJ6ib98wZyAObJKsWf1nAA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -6535,7 +6535,7 @@ snapshots:
 
   negotiator@0.6.3: {}
 
-  next@14.2.15(@babel/core@7.24.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.1):
+  next@14.2.15(@babel/core@7.24.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.80.2):
     dependencies:
       '@next/env': 14.2.15
       '@swc/helpers': 0.5.5
@@ -6556,7 +6556,7 @@ snapshots:
       '@next/swc-win32-arm64-msvc': 14.2.15
       '@next/swc-win32-ia32-msvc': 14.2.15
       '@next/swc-win32-x64-msvc': 14.2.15
-      sass: 1.80.1
+      sass: 1.80.2
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
@@ -6996,7 +6996,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass@1.80.1:
+  sass@1.80.2:
     dependencies:
       '@parcel/watcher': 2.4.1
       chokidar: 4.0.0
