@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import {
-  BlogPost,
+  type BlogPost,
   getPublishedBlogPosts,
 } from '../../../../database/blogPosts';
 

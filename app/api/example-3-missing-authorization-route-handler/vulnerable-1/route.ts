@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import {
-  BlogPost,
+  type BlogPost,
   getUnpublishedBlogPosts,
 } from '../../../../database/blogPosts';
 import { getUserByValidSessionToken } from '../../../../database/users';

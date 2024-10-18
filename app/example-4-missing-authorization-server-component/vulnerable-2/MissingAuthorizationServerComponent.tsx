@@ -1,7 +1,7 @@
 'use client';
 
-import { BlogPost } from '../../../database/blogPosts';
-import { User } from '../../../database/users';
+import type { BlogPost } from '../../../database/blogPosts';
+import type { User } from '../../../database/users';
 
 type Props = {
   blogPosts: BlogPost[];

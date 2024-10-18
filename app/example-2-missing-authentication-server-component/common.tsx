@@ -1,4 +1,4 @@
-import { BlogPost } from '../../database/blogPosts';
+import type { BlogPost } from '../../database/blogPosts';
 import LinkIfNotCurrent from '../LinkIfNotCurrent';
 
 type Props =

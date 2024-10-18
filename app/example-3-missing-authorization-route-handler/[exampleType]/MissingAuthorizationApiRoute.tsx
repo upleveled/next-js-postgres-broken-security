@@ -2,8 +2,8 @@
 
 import { notFound } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import { BlogPost } from '../../../database/blogPosts';
-import { MissingAuthorizationApiRouteResponseBodyGet } from '../../api/example-3-missing-authorization-route-handler/solution-1/route';
+import type { BlogPost } from '../../../database/blogPosts';
+import type { MissingAuthorizationApiRouteResponseBodyGet } from '../../api/example-3-missing-authorization-route-handler/solution-1/route';
 import LinkIfNotCurrent from '../../LinkIfNotCurrent';
 
 type Props = {

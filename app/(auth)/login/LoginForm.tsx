@@ -1,10 +1,10 @@
 'use client';
 
-import { Route } from 'next';
+import type { Route } from 'next';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { getSafeReturnToPath } from '../../../util/validation';
-import { LoginResponseBodyPost } from '../api/login/route';
+import type { LoginResponseBodyPost } from '../api/login/route';
 
 export default function LoginForm(props: { returnTo?: string | string[] }) {
   const [username, setUsername] = useState('');

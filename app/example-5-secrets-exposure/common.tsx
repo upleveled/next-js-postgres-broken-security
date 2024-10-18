@@ -1,4 +1,4 @@
-import { User } from '../../database/users';
+import type { User } from '../../database/users';
 import LinkIfNotCurrent from '../LinkIfNotCurrent';
 
 export type Colors = {

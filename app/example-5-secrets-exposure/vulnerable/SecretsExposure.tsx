@@ -1,7 +1,8 @@
 'use client';
+
 import { useEffect, useState } from 'react';
-import { User } from '../../../database/users';
-import Common, { Colors } from '../common';
+import type { User } from '../../../database/users';
+import Common, { type Colors } from '../common';
 
 type Props = {
   apiKey: string;

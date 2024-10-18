@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getUserByValidSessionToken } from '../../../../database/users';
-import { Colors } from '../../../example-5-secrets-exposure/common';
+import type { Colors } from '../../../example-5-secrets-exposure/common';
 
 export const dynamic = 'force-dynamic';
 

@@ -1,5 +1,5 @@
 import { getUsers } from '../../../database/users';
-import Common, { Colors } from '../common';
+import Common, { type Colors } from '../common';
 
 export const dynamic = 'force-dynamic';
 
