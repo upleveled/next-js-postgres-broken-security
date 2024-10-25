@@ -3,11 +3,15 @@ import { redirect } from 'next/navigation';
 import { getValidSessionByToken } from '../../../database/sessions';
 import LoginForm from './LoginForm';
 
-type Props = { searchParams: { returnTo?: string | string[] } };
+type Props = {
+  searchParams: Promise<{
+    returnTo?: string | string[];
+  };
+};
 
 export default async function LoginPage(props: Props) {
   // check if i have a valid session
-  const sessionTokenCookie = cookies().get('sessionToken');
+  const sessionTokenCookie = (await cookies()).get('sessionToken');
   console.log(sessionTokenCookie);
 
   const session =
@@ -20,5 +24,5 @@ export default async function LoginPage(props: Props) {
   }
 
   // if no render login component
-  return <LoginForm returnTo={props.searchParams.returnTo} />;
+  return <LoginForm returnTo={(await props.searchParams).returnTo} />;
 }

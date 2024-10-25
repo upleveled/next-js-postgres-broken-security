@@ -1,13 +1,13 @@
 import MissingAuthorizationApiRoute from './MissingAuthorizationApiRoute';
 
 type Props = {
-  params: {
+  params: Promise<{
     exampleType: string;
-  };
+  }>;
 };
 
 export default function MissingAuthorizationApiRoutePage(props: Props) {
   return (
-    <MissingAuthorizationApiRoute exampleType={props.params.exampleType} />
+    <MissingAuthorizationApiRoute exampleType={(await props.params).exampleType} />
   );
 }
