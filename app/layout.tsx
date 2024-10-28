@@ -21,7 +21,7 @@ type Props = {
 export const dynamic = 'force-dynamic';
 
 export default async function RootLayout(props: Props) {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const sessionToken = cookieStore.get('sessionToken');
   const user = !sessionToken?.value
     ? undefined

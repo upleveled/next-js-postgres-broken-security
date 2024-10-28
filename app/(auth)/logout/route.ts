@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 import { deleteSessionByToken } from '../../../database/sessions';
 
 export async function GET(): Promise<NextResponse<null>> {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const token = cookieStore.get('sessionToken');
 
   if (token) {
