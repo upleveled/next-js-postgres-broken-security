@@ -3,7 +3,7 @@ import { getUserByValidSessionToken } from '../../../database/users';
 import MissingAuthorizationApiRoute from './MissingAuthorizationApiRoute';
 
 export default async function MissingAuthorizationApiRoutePage() {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const sessionToken = cookieStore.get('sessionToken');
   const user = !sessionToken?.value
     ? undefined

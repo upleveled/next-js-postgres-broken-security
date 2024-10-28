@@ -6,7 +6,7 @@ import Common from '../common';
 export const dynamic = 'force-dynamic';
 
 export default async function MissingAuthenticationServerComponentPage() {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const sessionToken = cookieStore.get('sessionToken')?.value;
 
   if (!sessionToken) {
