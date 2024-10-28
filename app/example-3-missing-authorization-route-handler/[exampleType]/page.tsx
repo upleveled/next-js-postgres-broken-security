@@ -6,7 +6,7 @@ type Props = {
   }>;
 };
 
-export default function MissingAuthorizationApiRoutePage(props: Props) {
+export default async function MissingAuthorizationApiRoutePage(props: Props) {
   return (
     <MissingAuthorizationApiRoute exampleType={(await props.params).exampleType} />
   );
