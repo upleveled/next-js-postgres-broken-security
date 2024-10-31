@@ -11,7 +11,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@types/cookie": "1.0.0",
     "bcrypt": "5.1.1",
     "canvas": "2.11.2",
     "cookie": "1.0.1",
