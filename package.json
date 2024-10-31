@@ -19,12 +19,12 @@
     "dotenv-safe": "9.1.0",
     "jsdom": "25.0.1",
     "ley": "0.8.1",
-    "next": "15.0.1",
-    "postgres": "3.4.4",
+    "next": "15.0.2",
+    "postgres": "3.4.5",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-markdown": "9.0.1",
-    "sass": "1.80.4",
+    "sass": "1.80.5",
     "sharp": "0.33.5",
     "tsm": "2.3.0",
     "zod": "3.23.8"
@@ -35,11 +35,11 @@
     "@types/dompurify": "3.0.5",
     "@types/dotenv-safe": "8.1.6",
     "@types/jsdom": "21.1.7",
-    "@types/node": "22.7.9",
+    "@types/node": "22.8.6",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
     "eslint": "9.13.0",
-    "eslint-config-upleveled": "8.11.2",
+    "eslint-config-upleveled": "8.11.3",
     "libpg-query": "16.3.0",
     "prettier-plugin-embed": "0.4.15",
     "prettier-plugin-sql": "0.18.1",
@@ -47,5 +47,5 @@
     "stylelint-config-upleveled": "1.1.5",
     "typescript": "5.6.3"
   },
-  "packageManager": "pnpm@9.12.2"
+  "packageManager": "pnpm@9.12.3"
 }
