@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  node-addon-api: 7.1.0
+
 importers:
 
   .:
@@ -2678,9 +2681,6 @@ packages:
       sass:
         optional: true
 
-  node-addon-api@5.1.0:
-    resolution: {integrity: sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA==}
-
   node-addon-api@7.1.0:
     resolution: {integrity: sha512-mNcltoe1R8o7STTegSOHdnJNN7s5EUvhoS7ShnTHDyOSd+8H+UdWODq6qSv67PjC8Zc5JRT8+oLAMCr0SIXw7g==}
     engines: {node: ^16 || ^18 || >= 20}
@@ -4705,7 +4705,7 @@ snapshots:
   bcrypt@5.1.1(encoding@0.1.13):
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.11(encoding@0.1.13)
-      node-addon-api: 5.1.0
+      node-addon-api: 7.1.0
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -6586,8 +6586,6 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
-
-  node-addon-api@5.1.0: {}
 
   node-addon-api@7.1.0: {}
 
