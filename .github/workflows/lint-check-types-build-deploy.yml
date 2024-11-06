@@ -31,6 +31,9 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
+      # https://github.com/Automattic/node-canvas/blob/a2e10e61413a0d158174a7a869c16aa13e5d3575/Readme.md?plain=1#L39
+      - name: Install canvas dependencies
+        run: sudo apt-get install libcairo2-dev libpango1.0-dev
       - name: Install dependencies
         run: pnpm install
       - run: pnpm migrate up
