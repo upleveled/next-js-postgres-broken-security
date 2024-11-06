@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@types/cookie':
-        specifier: 1.0.0
-        version: 1.0.0
       bcrypt:
         specifier: 5.1.1
         version: 5.1.1(encoding@0.1.13)
@@ -816,10 +813,6 @@ packages:
 
   '@types/bcrypt@5.0.2':
     resolution: {integrity: sha512-6atioO8Y75fNcbmj0G7UjI9lXN2pQ/IGJ2FWT4a/btd0Lk9lQalHLKhkgKVZ3r+spnmWUKfbMi1GEe9wyHQfNQ==}
-
-  '@types/cookie@1.0.0':
-    resolution: {integrity: sha512-mGFXbkDQJ6kAXByHS7QAggRXgols0mAdP4MuXgloGY1tXokvzaFFM4SMqWvf7AH0oafI7zlFJwoGWzmhDqTZ9w==}
-    deprecated: This is a stub types definition. cookie provides its own type definitions, so you do not need this installed.
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
@@ -4353,10 +4346,6 @@ snapshots:
   '@types/bcrypt@5.0.2':
     dependencies:
       '@types/node': 22.8.6
-
-  '@types/cookie@1.0.0':
-    dependencies:
-      cookie: 1.0.1
 
   '@types/debug@4.1.12':
     dependencies:
