@@ -1,12 +1,8 @@
 name: Lint, Check Types, Build, Deploy to Fly.io
-on:
-  pull_request:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
-  lint-and-check-types-and-build:
+  ci:
     name: Lint, Check Types, Build
     runs-on: ubuntu-latest
     env:
@@ -51,10 +47,10 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
       - name: Run Stylelint
         run: pnpm stylelint '**/*.{css,scss,less,js,tsx}'
-  deploy:
+  cd:
     name: Deploy to Fly.io
     runs-on: ubuntu-latest
-    needs: lint-and-check-types-and-build
+    needs: ci
     if: github.ref == 'refs/heads/main'
     env:
       FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
