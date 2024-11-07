@@ -1,9 +1,5 @@
 name: Lint, Check Types, Build, Deploy to Fly.io
-on:
-  pull_request_target:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
   lint-and-check-types-and-build:
