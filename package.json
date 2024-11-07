@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "bcrypt": "5.1.1",
-    "canvas": "3.0.0-rc2",
+    "canvas": "2.11.2",
     "cookie": "1.0.1",
     "dompurify": "3.1.7",
     "dotenv-safe": "9.1.0",
