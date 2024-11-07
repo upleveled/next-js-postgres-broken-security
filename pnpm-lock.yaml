@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  node-addon-api: 7.1.0
+  node-addon-api: 8.2.1
 
 importers:
 
@@ -2728,9 +2728,9 @@ packages:
     resolution: {integrity: sha512-SZ40vRiy/+wRTf21hxkkEjPJZpARzUMVcJoQse2EF8qkUWbbO2z7vd5oA/H6bVH6SZQ5STGcu0KRDS7biNRfxw==}
     engines: {node: '>=10'}
 
-  node-addon-api@7.1.0:
-    resolution: {integrity: sha512-mNcltoe1R8o7STTegSOHdnJNN7s5EUvhoS7ShnTHDyOSd+8H+UdWODq6qSv67PjC8Zc5JRT8+oLAMCr0SIXw7g==}
-    engines: {node: ^16 || ^18 || >= 20}
+  node-addon-api@8.2.1:
+    resolution: {integrity: sha512-vmEOvxwiH8tlOcv4SyE8RH34rI5/nWVaigUeAUPawC6f0+HoDthwI0vkMu4tbtsZrXq6QXFfrkhjofzKEs5tpA==}
+    engines: {node: ^18 || ^20 || >= 21}
 
   node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
@@ -4379,7 +4379,7 @@ snapshots:
       detect-libc: 1.0.3
       is-glob: 4.0.3
       micromatch: 4.0.8
-      node-addon-api: 7.1.0
+      node-addon-api: 8.2.1
     optionalDependencies:
       '@parcel/watcher-android-arm64': 2.4.1
       '@parcel/watcher-darwin-arm64': 2.4.1
@@ -4783,7 +4783,7 @@ snapshots:
   bcrypt@5.1.1(encoding@0.1.13):
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.11(encoding@0.1.13)
-      node-addon-api: 7.1.0
+      node-addon-api: 8.2.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4860,7 +4860,7 @@ snapshots:
 
   canvas@3.0.0-rc2:
     dependencies:
-      node-addon-api: 7.1.0
+      node-addon-api: 8.2.1
       prebuild-install: 7.1.2
       simple-get: 3.1.1
 
@@ -6289,7 +6289,7 @@ snapshots:
     dependencies:
       '@emnapi/runtime': 0.43.1
       '@mapbox/node-pre-gyp': 1.0.11(encoding@0.1.13)
-      node-addon-api: 7.1.0
+      node-addon-api: 8.2.1
       node-gyp: 10.2.0
     transitivePeerDependencies:
       - encoding
@@ -6700,7 +6700,7 @@ snapshots:
     dependencies:
       semver: 7.6.3
 
-  node-addon-api@7.1.0: {}
+  node-addon-api@8.2.1: {}
 
   node-fetch@2.7.0(encoding@0.1.13):
     dependencies:
