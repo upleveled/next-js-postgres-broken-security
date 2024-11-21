@@ -13,8 +13,8 @@
   "dependencies": {
     "bcrypt": "5.1.1",
     "canvas": "3.0.0-rc2",
-    "cookie": "1.0.1",
-    "dompurify": "3.2.0",
+    "cookie": "1.0.2",
+    "dompurify": "3.2.1",
     "dotenv-safe": "9.1.0",
     "jsdom": "25.0.1",
     "ley": "0.8.1",
@@ -23,7 +23,7 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-markdown": "9.0.1",
-    "sass": "1.80.7",
+    "sass": "1.81.0",
     "sharp": "0.33.5",
     "tsm": "2.3.0",
     "zod": "3.23.8"
@@ -31,13 +31,13 @@
   "devDependencies": {
     "@ts-safeql/eslint-plugin": "3.4.7",
     "@types/bcrypt": "5.0.2",
-    "@types/dompurify": "3.0.5",
+    "@types/dompurify": "3.2.0",
     "@types/dotenv-safe": "8.1.6",
     "@types/jsdom": "21.1.7",
-    "@types/node": "22.9.0",
+    "@types/node": "22.9.1",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
-    "eslint": "9.14.0",
+    "eslint": "9.15.0",
     "eslint-config-upleveled": "8.11.4",
     "libpg-query": "16.3.0",
     "prettier-plugin-embed": "0.4.15",
@@ -46,7 +46,7 @@
     "stylelint-config-upleveled": "1.1.5",
     "typescript": "5.6.3"
   },
-  "packageManager": "pnpm@9.13.1+sha512.5ac37545851c55ec58521b6c285db6f848f93ca70889beb4145f5b40fe234e4ea4faee4dad12ac5c139e494374c65d9c3a6ec9a25954378fa286a250e68d2f20",
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387",
   "pnpm": {
     "overrides": {
       "node-addon-api": "8.2.2"
