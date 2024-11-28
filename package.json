@@ -34,17 +34,17 @@
     "@types/dompurify": "3.2.0",
     "@types/dotenv-safe": "8.1.6",
     "@types/jsdom": "21.1.7",
-    "@types/node": "22.9.1",
+    "@types/node": "22.10.1",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
     "eslint": "9.15.0",
-    "eslint-config-upleveled": "8.11.4",
+    "eslint-config-upleveled": "8.12.0",
     "libpg-query": "16.3.0",
     "prettier-plugin-embed": "0.4.15",
     "prettier-plugin-sql": "0.18.1",
-    "stylelint": "16.10.0",
+    "stylelint": "16.11.0",
     "stylelint-config-upleveled": "1.1.5",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   },
   "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387",
   "pnpm": {
