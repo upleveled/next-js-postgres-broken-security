@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "bcrypt": "5.1.1",
-    "canvas": "3.0.0",
+    "canvas": "3.0.1",
     "cookie": "1.0.2",
     "dompurify": "3.2.3",
     "dotenv-safe": "9.1.0",
@@ -29,12 +29,12 @@
     "zod": "3.24.1"
   },
   "devDependencies": {
-    "@ts-safeql/eslint-plugin": "3.6.0",
+    "@ts-safeql/eslint-plugin": "3.6.1",
     "@types/bcrypt": "5.0.2",
     "@types/dompurify": "3.2.0",
     "@types/dotenv-safe": "8.1.6",
     "@types/jsdom": "21.1.7",
-    "@types/node": "22.10.2",
+    "@types/node": "22.10.3",
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
     "eslint": "9.17.0",
@@ -46,7 +46,7 @@
     "stylelint-config-upleveled": "1.1.5",
     "typescript": "5.7.2"
   },
-  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf",
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321",
   "pnpm": {
     "overrides": {
       "node-addon-api": "8.3.0"
