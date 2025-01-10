@@ -16,7 +16,7 @@
     "cookie": "1.0.2",
     "dompurify": "3.2.3",
     "dotenv-safe": "9.1.0",
-    "jsdom": "25.0.1",
+    "jsdom": "26.0.0",
     "ley": "0.8.1",
     "next": "15.1.4",
     "postgres": "3.4.5",
