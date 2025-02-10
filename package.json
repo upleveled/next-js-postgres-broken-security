@@ -40,14 +40,22 @@
     "eslint": "9.19.0",
     "eslint-config-upleveled": "9.0.0",
     "libpg-query": "16.3.0",
+    "prettier": "3.5.0",
     "prettier-plugin-embed": "0.4.15",
     "prettier-plugin-sql": "0.18.1",
     "stylelint": "16.14.1",
     "stylelint-config-upleveled": "1.1.9",
     "typescript": "5.7.3"
   },
-  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "packageManager": "pnpm@10.2.1+sha512.398035c7bd696d0ba0b10a688ed558285329d27ea994804a52bad9167d8e3a72bcb993f9699585d3ca25779ac64949ef422757a6c31102c12ab932e5cbe5cc92",
   "pnpm": {
+    "onlyBuiltDependencies": [
+      "bcrypt",
+      "canvas",
+      "esbuild",
+      "libpg-query",
+      "sharp"
+    ],
     "overrides": {
       "node-addon-api": "8.3.0"
     }
