@@ -7,17 +7,23 @@ const prettierConfig = {
 
 /** @type {import('prettier-plugin-embed').PrettierPluginEmbedOptions} */
 const prettierPluginEmbedConfig = {
-  embeddedSqlIdentifiers: ['sql'],
+  embeddedSqlComments: ['sql'],
+  embeddedSqlTags: ['sql'],
 };
 
 /** @type {import('prettier-plugin-sql').SqlBaseOptions} */
 const prettierPluginSqlConfig = {
   language: 'postgresql',
   keywordCase: 'upper',
+  identifierCase: 'lower',
+  dataTypeCase: 'lower',
+  functionCase: 'lower',
   // - Wrap all parenthesized expressions to new lines (eg. `INSERT` columns)
   // - Do not wrap foreign keys (eg. `REFERENCES table_name (id)`)
   // - Do not wrap column type expressions (eg. `VARCHAR(255)`)
-  expressionWidth: 8,
+  // - Do not wrap longer field names when used alone (eg. `address_line_one`)
+  // - Do not wrap shorter expressions in function calls (eg. `avg(ratings.rating)`)
+  expressionWidth: 30,
 };
 
 const config = {
