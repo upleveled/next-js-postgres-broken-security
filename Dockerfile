@@ -30,7 +30,7 @@ COPY --from=builder /app/migrations ./migrations
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/package.json ./
 COPY --from=builder /app/.env.production ./
-COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/next.config.ts ./
 
 # Copy start script and make it executable
 COPY --from=builder /app/scripts ./scripts
