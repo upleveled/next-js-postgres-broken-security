@@ -27,6 +27,28 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
+      # Install dependencies for node-canvas to avoid errors like this
+      # while building from source:
+      #
+      # ```
+      # .../canvas@3.1.0/node_modules/canvas install: Package pixman-1 was not found in the pkg-config search path.
+      # .../canvas@3.1.0/node_modules/canvas install: Perhaps you should add the directory containing `pixman-1.pc'
+      # .../canvas@3.1.0/node_modules/canvas install: to the PKG_CONFIG_PATH environment variable
+      # .../canvas@3.1.0/node_modules/canvas install: Package 'pixman-1', required by 'virtual:world', not found
+      # .../canvas@3.1.0/node_modules/canvas install: gyp: Call to 'pkg-config pixman-1 --libs' returned exit status 1 while in binding.gyp. while trying to load binding.gyp
+      # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! configure error 
+      # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! stack Error: `gyp` failed with exit code: 1
+      # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! stack at ChildProcess.<anonymous> (/home/runner/setup-pnpm/node_modules/.pnpm/pnpm@10.5.2/node_modules/pnpm/dist/node_modules/node-gyp/lib/configure.js:317:18)
+      # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! stack at ChildProcess.emit (node:events:518:28)
+      # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! stack at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+      # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! System Linux 6.8.0-1021-azure
+      # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! command "/opt/hostedtoolcache/node/22.14.0/x64/bin/node" "/home/runner/setup-pnpm/node_modules/.pnpm/pnpm@10.5.2/node_modules/pnpm/dist/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+      # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! cwd /home/runner/work/security-vulnerability-examples-next-js-postgres/security-vulnerability-examples-next-js-postgres/node_modules/.pnpm/canvas@3.1.0/node_modules/canvas
+      # ```
+      - name: Install dependencies for node-canvas
+        run: |
+          sudo apt update
+          sudo apt install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev librsvg2-dev
       - name: Install dependencies
         run: pnpm install
       - run: pnpm migrate up

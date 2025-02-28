@@ -18,12 +18,12 @@
     "dotenv-safe": "9.1.0",
     "jsdom": "26.0.0",
     "ley": "0.8.1",
-    "next": "15.1.7",
+    "next": "15.2.0",
     "postgres": "3.4.5",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-markdown": "10.0.0",
-    "sass": "1.85.0",
+    "sass": "1.85.1",
     "sharp": "0.33.5",
     "tsm": "2.3.0",
     "zod": "3.24.2"
@@ -34,20 +34,20 @@
     "@types/dompurify": "3.2.0",
     "@types/dotenv-safe": "8.1.6",
     "@types/jsdom": "21.1.7",
-    "@types/node": "22.13.4",
+    "@types/node": "22.13.5",
     "@types/react": "19.0.10",
     "@types/react-dom": "19.0.4",
-    "eslint": "9.20.1",
-    "eslint-config-upleveled": "9.1.2",
+    "eslint": "9.21.0",
+    "eslint-config-upleveled": "9.2.0",
     "libpg-query": "16.3.0",
-    "prettier": "3.5.1",
-    "prettier-plugin-embed": "0.4.15",
+    "prettier": "3.5.2",
+    "prettier-plugin-embed": "0.5.0",
     "prettier-plugin-sql": "0.18.1",
     "stylelint": "16.14.1",
     "stylelint-config-upleveled": "1.1.9",
     "typescript": "5.7.3"
   },
-  "packageManager": "pnpm@10.4.1",
+  "packageManager": "pnpm@10.5.2",
   "pnpm": {
     "onlyBuiltDependencies": [
       "bcrypt",
@@ -57,7 +57,7 @@
       "sharp"
     ],
     "overrides": {
-      "node-addon-api": "8.3.0"
+      "node-addon-api": "8.3.1"
     }
   }
 }
