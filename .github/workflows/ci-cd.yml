@@ -45,6 +45,8 @@ jobs:
       # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! command "/opt/hostedtoolcache/node/22.14.0/x64/bin/node" "/home/runner/setup-pnpm/node_modules/.pnpm/pnpm@10.5.2/node_modules/pnpm/dist/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
       # .../canvas@3.1.0/node_modules/canvas install: gyp ERR! cwd /home/runner/work/security-vulnerability-examples-next-js-postgres/security-vulnerability-examples-next-js-postgres/node_modules/.pnpm/canvas@3.1.0/node_modules/canvas
       # ```
+      #
+      # - https://github.com/Automattic/node-canvas/issues/1065#issuecomment-2691025715
       - name: Install dependencies for node-canvas
         run: |
           sudo apt update
