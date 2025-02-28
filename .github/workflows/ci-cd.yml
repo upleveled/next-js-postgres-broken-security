@@ -48,9 +48,7 @@ jobs:
       #
       # - https://github.com/Automattic/node-canvas/issues/1065#issuecomment-2691025715
       - name: Install dependencies for node-canvas
-        run: |
-          sudo apt update
-          sudo apt install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev librsvg2-dev
+        run: sudo apt-get install libcairo2-dev libpango1.0-dev
       - name: Install dependencies
         run: pnpm install
       - run: pnpm migrate up
